@@ -20,7 +20,7 @@ function checkGuess() {
 
     if (guess === secretWord) {
         message.textContent = "Congratulations! You guessed the secret word!";
-        document.body.style.backgroundColor = "lightgreen";
+        document.body.style.backgroundColor = "#1B5E20";
         endGame();
     } else {
         attempts--;
@@ -28,7 +28,7 @@ function checkGuess() {
             message.textContent = `Incorrect guess. You have ${attempts} attempts left. Try again!`;
         } else {
             message.textContent = `Game over! The secret word was '${secretWord}'.`;
-            document.body.style.backgroundColor = "lightcoral";
+            document.body.style.backgroundColor = "#B71C1C";
             endGame();
         }
     }

@@ -1,17 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #121212;
     padding: 20px;
 }
 
 .container {
     max-width: 400px;
-    margin: auto;
-    background: white;
+    margin: auto;    
+    background: #1E1E1E;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
+    border: #333;
+    color: #E0E0E0;
+}
+h1{
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -24,9 +30,43 @@ button {
     padding: 10px;
     margin-top: 10px;
     cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.submitBtn{
+    background-color: #BB86FC;
+    
+}
+.submitBtn:hover{
+    background-color: #9B6FCB;
+}
+.restartBtn{
+    background-color: #03DAC6;
+    
+}
+.hint{
+    color: #AAAAAA;
 }
 
 #message {
     font-weight: bold;
     margin-top: 10px;
+    color: #B71C1C;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    border-top: 2px solid #ddd
+    display: inline-block;
+}
+
+footer .footer-content h6 {
+    margin: 5px 0;
 }
